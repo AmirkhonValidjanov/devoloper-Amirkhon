@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(50deg, #1e1e1e,  #2564);
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+        }   
+
+        .flexbox {
+            display: flex;
+            gap: 100px;
+
+            justify-content: space-around;
+            margin-left: -20px;
+
+        }
+
+        .flexbox h3 {
+            color: #fff;
+            opacity: 0.7;
+            position: relative;
+            left: -150px;
+        }
+
+        a {
+            text-decoration: none;
+            color: grey;
+
+        }
+
+        .boxin {
+            font-size: 1.8rem;
+        }
+
+        .hover {
+            width: 110px;
+            height: 40px;
+            borde: 1px solid #eee;
+            margin-top: 38px;
+           
+        
+        }
+
+        .h5 {
+            margin-left: 40px;
+            line-height: 40px;
+            position: relative;
+            bottom: 40px;
+            animation: lef 3s linear infinite;
+             
+        }
+        @keyframes lef{
+            0%,100%{
+                color: gray;
+            }
+            50%{
+                color: black;
+            }
+        }
+        .hover{
+            margin-top: 45px;
+        }
+
+        .hover:hover {
+            background-color: #ffff;
+            border-radius: 10px;
+            transition: all 0.7s;
+          
+
+
+        }
+
+        /*section bulimi*/
+        section {
+            width: 100%;
+            height: 500px;
+            background-color: re;
+
+        }
+
+        .textsection {
+
+            width: 300px;
+            height: 200px;
+            border: 1px solid yello;
+            color: white;
+            line-height: 10px;
+            margin-left: 200px;
+            position: relative;
+            top: 100px;
+            text-align: center;
+            opacity: 0.6;
+
+        }
+
+        .textsection h5 {
+            margin-bottom: -20px;
+            font-size: 20px;
+            position: relative;
+            bottom:40px;
+
+        }
+
+        .textsection h1 {
+            font-size: 3rem;
+            font-weight: bold;
+
+
+        }
+
+        /*imgburger*/
+        .imgburger {
+            width: 100px;
+            color: or;
+           filter: drop-shadow(5px 6px 7px orange);
+
+        }
+
+        .kichikroq {
+            width: 87px;
+
+        }
+
+        .imgburger:nth-child(1) {
+            border-radius: 10px 0 0 10px;
+        }
+
+        .imgburger:nth-child(3) {
+            border-radius: 0 10px 10px 0;
+        }
+
+        .boxburger {
+            margin-left: 200px;
+            position: relative;
+            top: 25px;
+        }
+        .boxlar{
+            position: relative;
+            top: 30px;
+        }
+
+        .bxburge {
+            width: 50px;
+            margin-left: 600px;
+            position: relative;
+            bottom: 320px;
+            filter: drop-shadow(10px 11px 30px orange);
+        }
+        .rotat{
+            animation: leter 5s linear ;
+            animation-duration: 4s;
+        }
+        @keyframes leter{
+           0%{
+            transform: scale(0.2);
+           }
+           100%{
+               transform: scale(1);
+           }
+           
+        }
+
+      
+        .categori{
+            width: 25px;
+            filter: drop-shadow(1px 2px 3px #eee);
+            position: relative;
+            bottom: 34.5px;
+            right: 30px;
+        }
+        .opacity{
+            display: inline-block;
+            margin-left: -6px;
+            animation: opac 4s linear infinite, lft 3s linear infinite;
+         }
+         @keyframes lft{
+
+            0%,100%{
+                color: white;
+            }
+            50%{
+                color:gold;
+            }
+         }
+         @keyframes opac{
+            0%,100%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 0;
+            }
+
+         }
+         .opacity:nth-child(1){
+            animation-delay: 0.5s;
+         }
+         .opacity:nth-child(2){
+            animation-delay: 1s;
+         }
+         .opacity:nth-child(3){
+            animation-delay: 1.2s;
+         }
+         .opacity:nth-child(4){
+            animation-delay: 1.4s;
+         }
+         .opacity:nth-child(5){
+            animation-delay: 1.6s;
+         }
+         .opacity:nth-child(6){
+            animation-delay: 1.8s;
+         }
+         .opacity:nth-child(7){
+            animation-delay: 2s;
+         }
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="flexbox">
+            <div class="boxin">
+                <h3>
+                    <span class="opacity">B</span>
+                    <span class="opacity">U</span>
+                    <span class="opacity">R</span>
+                    <span class="opacity">G</span>
+                    <span class="opacity">E</span>
+                    <span class="opacity">R</span>
+                    <span class="opacity">&#X1f354</span>
+                </h3>
+            </div>
+            <div class="boxin hover">
+                <a href="/menu.html">
+                    <h5 class="h5">Menu <img src="dron.img/IMG_20241226_190009-removebg-preview.png" class="categori"></h5>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!--section bulimi-->
+    <section>
+        <div class="boxlar">
+            <div class="textsection">
+                <h5>THE ULTIMATE</h5>
+                <h1><b>Burger Club</b></h1>
+                <p>Sevor the Flavor,Join the Clubl</p>
+
+            </div>
+            <div class="boxburger">
+                <img src="dron.img/IMG_20241226_173840_543.jpg" class="imgburger">
+                <img src="dron.img/IMG_20241226_173843_661.jpg" class="imgburger kichikroq">
+                <img src="dron.img/IMG_20241226_173840_543.jpg" class="imgburger">
+            </div>
+        </div>
+        <div class="bxburge">
+            <img src="dron.img/IMG_20241226_175113-removebg-preview.png" class="rotat">
+        </div>
+    </section>
+</body>
+</html>
